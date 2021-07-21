@@ -54,6 +54,11 @@ The model performed well on the data considering no Depression or Anxiety sympto
 
 ![Confusion Matrix](pngs/confusion_matrix.png)
 
-**Conclusions**: <br>
-
+**Conclusions/Next Steps**: <br>
+1. Bring in other NSCH data from previous years
+2. Perform more feature selection/engineering to optimize model
+3. Try different imputation methods to see their effect on the model
+4. Recommend additional questions on the NSCH realted to Depression and Anxiety symptoms, as well as more in depth questions on the top predictive factors of these disorders we found
+5. Encourage experimental research on the effects of our top predictors on adolescent Depression and Anxiety
+6. Additionally, encourage research on targeted interventions involving our predictive factors, such as Bullying Awareness programs at schools
 
