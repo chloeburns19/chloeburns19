@@ -4,7 +4,7 @@ In a move to identify etiological, developmental, and demographic factors that i
 
 Depression and Anxiety are increasingly being studied through a developmental lens. Suicide is one the leading causes of death for children. Additionally, cognitive, physical, and emotional changes brought on by puberty leave teens particularly susceptible to mental disorders such as Depression and Anxiety. This is why this project focuses on an adolescent population.
 
-![Age-Dep-Bar](/pngs/dev_bargraph.png)
+![Age-Dep-Bar](pngs/dev_bargraph.png)
 
 This project will use demographic, health indicators, family history and dynamics, academic information, community features, and other non-symptom variables to train a classification model to predict whether an adolescent is experiencing depression or anxiety.
 
@@ -36,7 +36,7 @@ These conditions were used as exclusionary criteria as they cause atypical brain
 
 Out final sample consists of **9,097** observations. 18.9% of those observations are adolescents that have had Depression or Anxiety.
 
-![Dep/Anx Bargraph](/pngs/dep_anx_bar.png)
+![Dep/Anx Bargraph](pngs/dep_anx_bar.png)
 
 **Sources of bias**:  <br>
 Parents are filling out this survey. Although many of the questions don't require a subjective answer, it is worth noting that the data here is second hand reporting. Additionally, many cases of depression and anxiety go undetected - it is possible that subjects in this study classified as not having either of these disorders _does_ in fact have them. Additionally, sampling methods can affect this survey. There could be underlying characteristics overrepresented in those that complete the survey compared to those who do not. 
@@ -52,7 +52,7 @@ I will build a Logistic Regression ElasticNet model to predict the presence of a
 **Results**: <br>
 The model performed well on the data considering no Depression or Anxiety symptoms (defined by the DSM) were present on the survey. On the entire dataset, the model achieved .91 recall, .42 precision, and an ROC-AUC score of .81. Recall was prioritized as the patient sample was a very small proportion of the dataset. Additionally, it was more important for feature importance to prioritize recall: the goal was not to build the most accurate model necessarily, but to identify important non-symptom features that predicted the presence of Depression or Anxiety. 
 
-![Confusion Matrix](/pngs/confusion_matrix.png)
+![Confusion Matrix](pngs/confusion_matrix.png)
 
 **Conclusions**: <br>
 
